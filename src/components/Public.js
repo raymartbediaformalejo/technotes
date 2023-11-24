@@ -5,16 +5,16 @@ const Public = () => {
     <section className="public">
       <header>
         <h1>
-          Welcome to <span className="nowrap">Dan D. Repairs!</span>
+          Welcome to <span className="nowrap">TechNotes!</span>
         </h1>
       </header>
       <main className="public__main">
         <p>
-          Located in Beautiful Downtown Foo City, Dan D. Repairs provides a
-          trained staff ready to meet your tech repair needs.
+          Located in Beautiful Downtown Foo City, TechNotes provides a trained
+          staff ready to meet your tech repair needs.
         </p>
         <address className="public__addr">
-          Dan D. Repairs
+          TechNotes
           <br />
           555 Foo Drive
           <br />

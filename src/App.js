@@ -15,9 +15,14 @@ import PersistLogin from "./features/auth/PersistLogin";
 import RequireAuth from "./features/auth/RequireAuth";
 import { ROLES } from "./config/roles";
 import useTitle from "./hooks/useTitle";
+import { selectCurrentToken } from "./features/auth/authSlice";
+import { useSelector } from "react-redux";
 
 function App() {
-  useTitle("Dan D. Repairs");
+  useTitle("TechNotes");
+  const token = useSelector(selectCurrentToken);
+
+  console.log(token);
 
   return (
     <Routes>
